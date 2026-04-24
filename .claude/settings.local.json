@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /d/esp32_robot_eyes -name *.pdf -type f)",
+      "Bash(pdftoppm -v)"
+    ]
+  }
+}

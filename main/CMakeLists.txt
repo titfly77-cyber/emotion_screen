@@ -1,0 +1,26 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "st7789.c"
+        "gfx.c"
+        "qmi8658.c"
+        "mjpeg_player.c"
+        "sdcard.c"
+        "rc522.c"
+        "audio_player.c"   # <--- 新增这行
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        driver
+        esp_driver_i2c
+        esp_lcd
+        esp_timer
+        fatfs
+        sdmmc
+        vfs
+        esp_wifi
+        nvs_flash
+        esp_netif
+        esp_event
+        lwip
+)

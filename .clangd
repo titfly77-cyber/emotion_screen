@@ -1,0 +1,16 @@
+CompileFlags:
+  CompilationDatabase: build
+  Remove:
+    - -mtext-section-literals
+    - -mlongcalls
+    - -mlong-calls
+    - -mdisable-hardware-atomics
+    - -fno-tree-switch-conversion
+    - -fstrict-volatile-bitfields
+    - -march=*
+    - -Wno-frame-address
+    - --param=*
+    - -fno-shrink-wrap
+    - -mfix-esp32-psram-cache-issue
+    - -mfix-esp32-psram-cache-strategy=*
+    - -m*

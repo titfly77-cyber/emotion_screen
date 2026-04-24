@@ -1,0 +1,2 @@
+source D:/esp32_robot_eyes/build/bootloader/gdbinit/symbols
+source D:/esp32_robot_eyes/build/bootloader/gdbinit/connect

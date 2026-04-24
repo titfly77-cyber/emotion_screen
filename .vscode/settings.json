@@ -1,0 +1,12 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}\\build",
+        "--background-index",
+        "--header-insertion=never",
+        "--query-driver=D:\\Espressif\\tools\\xtensa-esp-elf\\**\\xtensa-esp32s3-elf-gcc.exe"
+    ],
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "idf.flashType": "UART",
+    "idf.portWin": "COM7",
+    "idf.currentSetup": "d:\\esp-idf__vs\\esp-idf\\v5.5.3\\esp-idf"
+}
