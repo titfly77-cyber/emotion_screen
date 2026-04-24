@@ -1,0 +1,10 @@
+# ESP-IDF
+build/
+managed_components/
+dependencies.lock
+sdkconfig
+sdkconfig.old
+
+# 媒体文件（如果存放在工程下）
+*.mjpeg
+*.wav
